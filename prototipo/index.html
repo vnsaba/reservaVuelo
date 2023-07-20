@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- 
+    basado en: https://purecss.io/layouts/side-menu/ 
+    imagenes libres: http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg
+    npm install purecss --save
+    FALTA enseñarles lo de liveServer
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolíneas Icaria</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <script defer type="module" src="./resources/js/index.js"></script>
+</head>
+
+<body>
+    <div id="layout">
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
+
+        <nav id="menu" class="pure-menu">
+            <a class="pure-menu-heading" href="#company">Icaria</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#pasajeros" class="pure-menu-link">Pasajeros</a></li>
+                <li class="pure-menu-item"><a href="#aviones" class="pure-menu-link">Aviones</a></li>
+                <li class="pure-menu-item"><a href="#trayectos" class="pure-menu-link">Trayectos</a></li>
+
+                <li class="pure-menu-item menu-item-divided pure-menu-selected">
+                    <a href="#vuelos" class="pure-menu-link">Vuelos</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="#reservas" class="pure-menu-link">Reservas</a></li>
+                <li class="pure-menu-item"><a href="#contacto" class="pure-menu-link">Contáctenos</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <header>
+                <h1>Aerolíneas Icaria</h1>
+                <h2>Sabemos qué tan alto puedes volar</h2>
+            </header>
+
+            <section class="content">
+                <h2 class="content-subhead">How to use this layout</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium repellat delectus quisquam
+                    accusamus sint magni, asperiores voluptatum sit. Tempora cum fugit reprehenderit dolores laudantium
+                    esse maiores, officiis aliquid nihil nam.
+                </p>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>

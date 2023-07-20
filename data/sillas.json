@@ -1,0 +1,290 @@
+[
+  {
+    "columna": "A",
+    "posicion": "01A",
+    "ubicacion": "VENTANA",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "01B",
+    "ubicacion": "PASILLO",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "01C",
+    "ubicacion": "PASILLO",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "01D",
+    "ubicacion": "VENTANA",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "02A",
+    "ubicacion": "VENTANA",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "02B",
+    "ubicacion": "PASILLO",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "02C",
+    "ubicacion": "PASILLO",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "02D",
+    "ubicacion": "VENTANA",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "03A",
+    "ubicacion": "VENTANA",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "03B",
+    "ubicacion": "PASILLO",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "03C",
+    "ubicacion": "PASILLO",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "03D",
+    "ubicacion": "VENTANA",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "04A",
+    "ubicacion": "VENTANA",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "04B",
+    "ubicacion": "VENTANA",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "04C",
+    "ubicacion": "PASILLO",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "04D",
+    "ubicacion": "CENTRAL",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "04E",
+    "ubicacion": "CENTRAL",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "04F",
+    "ubicacion": "PASILLO",
+    "fila": 4,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "05A",
+    "ubicacion": "VENTANA",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "05B",
+    "ubicacion": "VENTANA",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "05C",
+    "ubicacion": "PASILLO",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "05D",
+    "ubicacion": "CENTRAL",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "05E",
+    "ubicacion": "CENTRAL",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "05F",
+    "ubicacion": "PASILLO",
+    "fila": 5,
+    "avion": {
+      "matricula": "HK1001",
+      "modelo": "NOSE"
+    },
+    "disponible": true
+  }
+]

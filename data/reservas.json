@@ -1,0 +1,9 @@
+[{
+  "pasajero": {
+    "apellidos": "alzate",
+    "identificacion": "P0001",
+    "nombres": "Vanesa"
+  },
+  "cancelado": false,
+  "fechaHora": "2023-03-26T16:18:10.913576400"
+}]

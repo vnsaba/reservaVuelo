@@ -1,0 +1,109 @@
+<html>
+
+  <!-- 
+    IMPORTANTE
+    Este formulario al parecer está incompleto, parecierá que el hacen falta campos de
+    entrada de datos, pero no. Lo que pasa es que dadas las restricciones del mismo,
+    la visualización de algunas entradas dependen de condiciones y hay que crearlas 
+    dinámicamente desde JavaScript.
+   -->
+
+  <body>
+    <h2 class="center">Reservas</h2>
+
+    <div class="pure-g center scrollable">
+      <div id="info-reservas" class="pure-u-1">
+        <!-- información de reservas -->
+      </div>
+    </div>
+
+    <!-- enlaces a las operaciones CRUD -->
+    <ul id="list-crud-reservas" class="layout-item-modules pure-g center">
+      <li class="layout-item-module layout-item-module-create pure-u">
+        <a Agregar href="#reservas-create">Crear</a>
+      </li>
+      <li class="layout-item-module layout-item-module-retrieve pure-u">
+        <a href="#reservas-retrieve">Buscar</a>
+      </li>
+      <li class="layout-item-module layout-item-module-update pure-u">
+        <a href="#reservas-update">Actualizar</a>
+      </li>
+      <li class="layout-item-module layout-item-module-delete pure-u">
+        <a href="#reservas-delete">Eliminar</a>
+      </li>
+    </ul>
+
+    <div id="frm-edit-reservas" class="details hide rounded center">
+      <!-- 
+      formulario donde se harán todas las operaciones CRUD
+      basado en: basado en: https://www.sanwebe.com/2014/08/css-html-forms-designs 
+      Ver también: https://www.w3schools.com/tags/tag_input.asp
+     -->
+      <form id="form-reservas">
+        <ul class="form-style-1">
+          <li id="item1">
+            <div class="field-divided3">
+              <div class="">
+                <input type="checkbox" id="ida-regreso" style="margin-top: 6px;" /> Ida y regreso
+              </div>
+              <div class="">
+                Pasajeros
+                <input type="number" id="total-pasajeros" min="1" max="100" value="1">
+              </div>
+              <div class="">
+                Fecha y hora
+                <input type="datetime-local">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <label>Vuelo de ida <span class="required">*</span></label>
+            <select id="vuelo-ida" name="vuelo-ida" class="field-select">
+              <option value="0">Elija el vuelo de ida</option>
+            </select>
+          </li>
+
+          <li>
+            <label>Vuelo de regreso <span class="required">*</span></label>
+            <select id="vuelo-regreso" name="vuelo-regreso" class="field-select">
+              <option value="0">Elija el vuelo de regreso</option>
+            </select>
+          </li>
+
+          <li id="executive-options">
+            <div class="field-divided3">
+              <div class="">
+                Menú
+                <select id="opciones-menu" name="vuelo-ida" class="field-select">
+                  <option value="0">Sin especificar el tipo de menú</option>
+                  <option value="1">Pollo a la naranja</option>
+                  <option value="2">Vegetariano</option>
+                  <option value="3">Filete de pescado</option>
+                </select>
+              </div>
+              <div class="">
+                Licor
+                <select id="opciones-licor" name="vuelo-ida" class="field-select">
+                  <option value="3">Sin especificar un tipo de licor</option>
+                  <option value="0">Whiskey</option>
+                  <option value="1">Oporto</option>
+                  <option value="2">Vino</option>
+                </select>
+              </div>
+
+            </div>
+          </li>
+
+          <li id="state"></li>
+
+          <li>
+            <button id="reservas-aceptar" type="button" class="button-primary">Aceptar</button>
+            <button id="reservas-cerrar" type="button" class="button-secondary">Cerrar</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </body>
+
+</html>

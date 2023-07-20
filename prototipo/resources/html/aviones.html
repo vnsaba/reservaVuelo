@@ -1,0 +1,70 @@
+<html>
+
+<body>
+  <h2 class="center">Aviones</h2>
+  <div id="info-aviones" class="center scrollable">
+    <!-- aquí se inyecta la tabla con todos los registros -->
+  </div>
+
+  <!-- enlaces a las operaciones CRUD -->
+  <ul id="list-crud-aviones" class="layout-item-modules pure-g center">
+    <li class="layout-item-module layout-item-module-create pure-u">
+      <a Agregar href="#aviones-create">Crear</a>
+    </li>
+    <li class="layout-item-module layout-item-module-retrieve pure-u">
+      <a href="#aviones-retrieve">Buscar</a>
+    </li>
+    <li class="layout-item-module layout-item-module-update pure-u">
+      <a href="#aviones-update">Actualizar</a>
+    </li>
+    <li class="layout-item-module layout-item-module-delete pure-u">
+      <a href="#aviones-delete">Eliminar</a>
+    </li>
+  </ul>
+
+  <div id="frm-edit-aviones" class="details hide rounded center">
+    <!-- 
+      create 
+     -->
+    <form id="form-aviones">
+      <ul class="form-style-1">
+        <li>
+          <label>matricula<span class="required">*</span></label>
+          <input type="text" id="matricula" name="matricula" class="field-long"
+            placeholder="seis o siete caracteres. Ejemplo: HK 0000" required minlength="6" maxlength="7" />
+        </li>
+
+        <li>
+          <label>modelo<span class="required">*</span></label>
+          <input type="text" id="modelo" name="modelo" class="field-long" placeholder="minimo 10, maximo 30 caracteres"
+            required minlength="10" maxlength="30" />
+        </li>
+
+        <li>
+          <label>Sillas ejecutivas y economicas<span class="requiered">*</span></label>
+          <div class="form-aviones__sillas">
+            <select id="ejecutivas" name="ejecutivas" class="field-select">
+              <option value="Advertise"> ejecutivas</option>
+            </select>
+            <select id="economicas" name="economicas" class="field-select">
+              <option value="Advertise">economicas</option>
+            </select>
+          </div>
+        </li> 
+
+        <li id="state"></li>
+
+        <li>
+          <button id="aviones-aceptar" type="button" class="button-primary">
+            Aceptar
+          </button>
+          <button id="aviones-cerrar" type="button" class="button-secondary">
+            Cerrar
+          </button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</body>
+
+</html>

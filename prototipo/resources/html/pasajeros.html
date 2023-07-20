@@ -1,0 +1,84 @@
+<html>
+
+<body>
+
+  <h2 class="center">Pasajeros</h2>
+  <div class="pure-g center scrollable">
+    <div id="info-pasajeros" class="pure-u-1">
+      <table class="pure-table pure-table-striped">
+        <thead>
+          <th>ID</th>
+          <th>NOMBRES</th>
+          <th>APELLIDOS</th>
+        </thead>
+        <tbody></tbody>
+          <tr>
+            <td>P0001</td>
+            <td>Arturo</td>
+            <td>Péres Reverte</td>
+          </tr>
+          <tr>
+            <td>P0002</td>
+            <td>Javier Alonso</td>
+            <td>García Pozuelo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- enlaces a las operaciones CRUD -->
+  <ul id="list-crud-pasajeros" class="layout-item-modules pure-g center">
+    <li class="layout-item-module layout-item-module-create pure-u">
+      <a Agregar href="#pasajeros-create">Crear</a>
+    </li>
+    <li class="layout-item-module layout-item-module-retrieve pure-u">
+      <a href="#pasajeros-retrieve">Buscar</a>
+    </li>
+    <li class="layout-item-module layout-item-module-update pure-u">
+      <a href="#pasajeros-update">Actualizar</a>
+    </li>
+    <li class="layout-item-module layout-item-module-delete pure-u">
+      <a href="#pasajeros-delete">Eliminar</a>
+    </li>
+  </ul>
+
+  <div id="frm-edit-pasajeros" class="details hide rounded center">
+    <!-- 
+      formulario donde se harán todas las operaciones CRUD
+      basado en: basado en: https://www.sanwebe.com/2014/08/css-html-forms-designs 
+      Ver también: https://www.w3schools.com/tags/tag_input.asp
+     -->
+    <form id="form-pasajeros">
+      <ul class="form-style-1">
+        <li>
+          <label>Identificación <span class="required">*</span></label>
+          <input type="text" id="identificacion" name="identificacion" class="field-long"
+            placeholder="Cinco caracteres. Ejemplo: P0001" required minlength="4" maxlength="5" />
+        </li>
+
+        <li>
+          <label>Nombres <span class="required">*</span></label>
+          <input type="text" id="nombres" name="nombres" class="field-long" placeholder="De 1 a 30 caracteres" required
+            minlength="1" maxlength="30" />
+        </li>
+
+        <li>
+          <label>Apellidos <span class="required">*</span></label>
+          <input type="text" id="apellidos" name="apellidos" class="field-long" placeholder="De 3 a 30 caracteres"
+            required minlength="3" maxlength="30" />
+        </li>
+
+        <li id="state"></li>
+
+        <li>
+          <button id="pasajeros-aceptar" type="button" class="button-primary">Aceptar</button>
+          <button id="pasajeros-cerrar" type="button" class="button-secondary">Cerrar</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+
+</body>
+
+</html>
